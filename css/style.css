@@ -4,11 +4,54 @@ body {
 
 .aside {
     width: 370px;
-    height: 1319px;
-    background-color: #1e2939;
+    background-color: #81708e;
+    border-radius: 20px;
+    float: left;
+    clear: both;
+    margin-right: 89px;
+    padding-bottom: 80px;
+    color: azure;
+}
+
+.aside a {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.aside li {
+    list-style-type: circle;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .main-photo {
     width: 370px;
     margin-top: 40px;
+}
+
+.contacts-container {
+    padding-top: 57px;
+    padding-left: 51px;
+}
+
+.tech-skills-container {
+    padding-top: 54px;
+    padding-left: 51px;
+}
+
+.soft-skills-container {
+    padding-top: 54px;
+    padding-left: 51px;
+}
+
+.about-me-container {
+    padding-top: 108px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
 }
