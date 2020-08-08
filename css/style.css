@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aside {
+    width: 370px;
+    height: 1319px;
+    background-color: #1e2939;
+}
+
+.main-photo {
+    width: 370px;
+    margin-top: 40px;
+}
