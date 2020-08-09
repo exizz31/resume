@@ -145,14 +145,6 @@ aside span {
     margin-left: 17px;
 }
 
-.experience {
-    color: darkred;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 10px;
-}
 
 .tech-name {
     color: #595959;
@@ -169,6 +161,10 @@ aside span {
     line-height: 24px;
     letter-spacing: 0.42px;
 }
+
+
+
+
 
 .career {
     color: #000000;
@@ -211,10 +207,19 @@ aside span {
     margin-left: 17px;
 }
 
+.education {
+    margin-bottom: 80px;
+}
+
+.experience {
+    color: darkred;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
 .speciality {
     margin-bottom: 14px;
 }
 
-.education {
-    margin-bottom: 80px;
-}
