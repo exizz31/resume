@@ -11,7 +11,7 @@
 <body>
     <!-- main container -->
     <div class="wrapper">
-        <div class="aside"> <img class="main-photo" src="img/photo.jpg" alt="My Photo">
+        <aside> <img class="main-photo" src="img/photo.jpg" alt="My Photo">
             <!-- contacts container-->
             <div class="contacts-container">
                 <h3 class="skills-title">Contacts</h3>
@@ -42,30 +42,33 @@
                     <li><span>Teamwork</span></li>
                 </ul>
             </div>
-        </div>
+        </aside>
         <!-- about me container -->
         <div class="about-me-container">
             <!-- about me main info-->
             <div main-info>
-                <h2>Front-End Developer</h2>
-                <h1>Elara Velvetoff</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nulla eum consectetur aperiam eos, quas ad, minus neque saepe facilis! Omnis ea qui nemo optio, voluptatibus, commodi numquam! Placeat, repellendus!</p>
+                <h2 class="profession">Front-End Developer</h2>
+                <h1 class="my-name">Elara Velvetoff</h1>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nulla eum consectetur aperiam eos, quas ad, minus neque saepe facilis! Omnis ea qui nemo optio, voluptatibus, commodi numquam! Placeat, repellendus!</p>
                 <!-- projects container -->
-                <div>
-                    <h3>Projects</h3>
+                <div class="projects">
+                    <h3 class="experience">Projects</h3>
                     <ol>
-                        <li> <a href="https://lovecamp.goit.ua/">https://lovecamp.goit.ua/</a><span>...........</span><span>[ HTML5, CSS3 ]</span> </li>
-                        <li> <a href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a><span>..........</span><span>[ JavaScript ]</span> </li>
-                        <li> <a href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a><span>.........</span><span>[ React.js, Node.js ]</span> </li>
+                        <li> <a href="https://lovecamp.goit.ua/">https://lovecamp.goit.ua/</a><span class="points">...........</span><span>[ <span class="tech-name">HTML5, CSS3</span> ]</span>
+                        </li>
+                        <li> <a href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a><span class="points">..........</span><span>[ <span class="tech-name">JavaScript</span> ]</span>
+                        </li>
+                        <li> <a href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a><span class="points">..........</span><span>[ <span class="tech-name">React.js, Node.js</span> ]</span>
+                        </li>
                     </ol>
                 </div>
                 <!--Work Experience-->
                 <div>
-                    <h3>Work Experience</h3>
+                    <h3 class="experience">Work Experience</h3>
                     <!--Company#1-->
                     <div>
-                        <h4>Front-End Developer Freelance</h4> <span> September 2019 - up to now | Ukraine</span>
-                        <ul>
+                        <h4 class="career">Front-End Developer <span class="workplace">Freelance</span></h4> <span class="profession-time"> September 2019 - up to now <span class="profession-devider">|</span> Ukraine</span>
+                        <ul class="profession-dutes">
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, amet, omnis explicabo nam esse deleniti.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptatum ex ipsa adipisci cupiditate animi iusto, odio, dolore saepe dolorum.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, distinctio.</li>
@@ -74,8 +77,8 @@
                     </div>
                     <!--Company #2-->
                     <div>
-                        <h4>Manager Roga & Kopyta New</h4> <span>March 2015 - October 2018 | Ukraine</span>
-                        <ul>
+                        <h4 class="career">Manager <span class="workplace">Roga & Kopyta New</span></h4> <span class="profession-time">March 2015 - October 2018 <span class="profession-devider">|</span> Ukraine</span>
+                        <ul class="profession-dutes">
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium deleniti quia animi iusto eveniet?</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptates!</li>
@@ -83,8 +86,8 @@
                     </div>
                     <!--Company #3-->
                     <div>
-                        <h4>Manager Roga & Kopyta LLC </h4> <span>June 2014 - February 2015 | Ukraine</span>
-                        <ul>
+                        <h4 class="career">Manager <span class="workplace">Roga & Kopyta LLC</span> </h4> <span class="profession-time">June 2014 - February 2015 <span class="profession-devider">|</span> Ukraine</span>
+                        <ul class="profession-dutes">
                             <li>Lorem ipsum dolor sit amet, consectetur</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptates!</li>
@@ -92,9 +95,11 @@
                     </div>
                 </div>
                 <!--Education-->
-                <div>
-                    <h4>Kharkiv National University of Radioelectronics</h4>
-                    <h4>Management</h4> <span>Septermber 2009 - June 2014 | Ukraine</span> </div>
+                <div class="education">
+                    <h3 class="experience">Education</h3>
+                    <h4 class="career"><span class="workplace">Kharkiv National University of Radioelectronic</span></h4>
+                    <h4 class="speciality">Management</h4> <span class="profession-time">Septermber 2009 - June 2014 <span class="profession-devider">|</span> Ukraine</span>
+                </div>
             </div>
         </div>
     </div>
