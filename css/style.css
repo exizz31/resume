@@ -13,32 +13,7 @@ body {
     background-color: #fff;
     margin: 20px;
     border-radius: 20px;
-}
-
-.aside {
-    width: 370px;
-    background-color: #81708e;
-    border-radius: 20px;
-    float: left;
-    clear: both;
-    margin-right: 89px;
-    padding-bottom: 80px;
-    color: azure;
-}
-
-.aside a {
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.aside li {
-    list-style-type: circle;
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
+    display: flex;
 }
 
 .main-photo {
@@ -56,13 +31,61 @@ body {
     padding-left: 51px;
 }
 
-.soft-skills-container {
-    padding-top: 54px;
-    padding-left: 51px;
-}
-
 .about-me-container {
     padding-top: 108px;
     padding-bottom: 20px;
     padding-right: 10px;
+}
+
+.aside {
+    width: 370px;
+    background-color: #81708e;
+    border-radius: 20px;
+    margin-right: 89px;
+    padding-bottom: 80px;
+    color: azure;
+}
+
+.aside a {
+    color: cornsilk;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.aside li {
+    list-style-type: disc;
+    color: #ff6b08;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.aside span {
+    color: #fff;
+}
+
+.skills-title {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.contacts-container span {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    margin-right: 10px;
+}
+
+.soft-skills-container {
+    padding-top: 54px;
+    padding-left: 51px;
 }
